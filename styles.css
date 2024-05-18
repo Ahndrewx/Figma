@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .navbar {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  max-width: 90%;
+  margin: 30px auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+div ul{
+  display: flex;
+  list-style-type: none;
+}
+
+div ul li {
+  margin-right: 20px;
+  
+}
+
+div ul li a{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: gray;
+}
+
+.untitled {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+main {
+  margin-top: 130px;
+}
+
+.part1-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.part1-button {
+  padding: 10px;
+  border-radius: 30px;
+  margin-right: 50px;
+  background: transparent;
+  color: rgb(235, 15, 235);
+  font-weight: bold;
+}
+
+.check-out {
+  color: rgb(235, 15, 235);
+  font-weight: bold;
+}
+
+.part2-body {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.part3-body {
+  text-align: center;
+  color: gray;
+}
+
+.part4-body {
+  text-align: center;
+}
+
+.part4-button1 {
+  width: 100px;
+  padding: 7px;
+  border: none;
+  margin-right: 8px;
+}
+
+.part4-button2 {
+  background-color: rgb(235, 15, 235);
+  width: 90px;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+}
+
+.bg1 {
+  object-fit: cover;
+  width: 70%;
+  margin: 0 20px 0 20px;
+}
+
+.part5-body {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part6-body {
+  color: rgb(235, 15, 235);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.part7-body {
+  color: black;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.part8-body {
+  text-align: center;
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.part9-body {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pur {
+  color: rgb(235, 15, 235);
+  padding: 7px;
+  font-weight: bold;
+  margin-right: 9px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+}
+
+.blu {
+  color: blue;
+  padding: 7px;
+  font-weight: bold;
+  margin-right: 9px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+}
+
+.pin {
+  color: red;
+  padding: 7px;
+  font-weight: bold;
+  width: 120px;
+  border-radius: 60px;
+  border: none;
+}
+
+.bg2 {
+  object-fit: cover;
+  width: 85%;
+  margin: 0 20px 0 20px;
+}
+
+.part10-body {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part11-body{
+  width: 50%;
+ 
+  margin: 0 auto;
+  font-size: 1.4rem;
+  color: gray;
+  margin-top: 20px;
+}
+
+.god-abeg {
+  margin-top: 50px;
+}
+
+.part12-body{
+  width: 50%;
+  
+  margin: 0 auto;
+  font-size: 1.4rem;
+  color: gray;
+}
+
+.god-abeg2 {
+  object-fit: cover;
+  max-width: 100%;
+  margin-top: 60px;
+}
+
+.end {
+  border: 1px solid gray;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgb(177, 176, 176);
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.part11-body-italics {
+  border-left: 3.5px solid blue;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  color: gray;
+  font-style: italic;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.olivia {
+  font-style: normal;
+  margin-top: 15px;
+}
+
+.header2 {
+  font-weight: bold;
+  color: black;
+}
+
+.conco {
+  color: black;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.part100-body{
+  width: 50%;
+ 
+  margin: 0 auto;
+  font-size: 1.4rem;
+  color: gray;
+  margin-top: 20px;
+}
+
+.your-mama {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+}
