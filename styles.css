@@ -265,3 +265,127 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.caption {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: gray;
+  margin-top: 20px;
+}
+
+.short {
+  width: 50%;
+  margin: 60px auto;
+}
+
+.long {
+  margin-top: 100px;
+}
+
+.slong {
+  width: 95%;
+  margin-top: 100px;
+  
+} 
+
+.part13-body {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.part14-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 10px auto;
+  font-size: 1.4rem;
+  color: gray;
+}
+
+.part14-body button {
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  border: none;
+}
+
+.part15-body {
+  display: flex;
+}
+
+.rhye {
+  color: black;
+  font-weight: bold;
+}
+
+.part16-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.bj-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.bj-logo p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.bj-logo img {
+  margin-right: 10px;
+}
+
+.card-img-top {
+  width: 30%;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  padding: 1.5em 0.5em 0.5em ;
+  text-align: center;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 10px; /* Space between grid items */
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 20px;
+  color: gray;
+}
